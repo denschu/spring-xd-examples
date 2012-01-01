@@ -1,0 +1,2 @@
+{"category":"INFO", "url":"http://server.local:8080/api", "duration":200, "timestamp":1354697760477, "http_code":"200", "message":"This is a logentry."}
+{"category":"INFO", "url":"http://server.local:8080/api", "duration":200, "timestamp":1354697760477, "http_code":"200", "message":"This is a logentry."}
