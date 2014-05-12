@@ -22,7 +22,7 @@ Spring XD - Tackling Big Data Complexity  - Examples
 
 ## Create simple Stream
 
-	xd:> stream create --definition "tail --name=/tmp/logfile.json | log" --name beispiel 
+	stream create --definition "tail --name=/tmp/logfile.json | log" --name beispiel 
 
 ## Delete simple Stream
 
@@ -30,7 +30,7 @@ Spring XD - Tackling Big Data Complexity  - Examples
 
 ## Create extended Stream
 
-	xd:> stream create --definition "tail --name=/tmp/logfile.json | filter --expression=#jsonPath(payload,'$.category').contains('ERROR') | log" --name beispiel
+	stream create --definition "tail --name=/tmp/logfile.json | filter --expression=#jsonPath(payload,'$.category').contains('ERROR') | log" --name beispiel
 
 ## Deploy stream
 
