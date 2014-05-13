@@ -1,6 +1,8 @@
 Spring XD - Tackling Big Data Complexity  - Examples
 ====================
 
+| = Alt-7
+
 # Installation on Mac OS
 
 	brew install springxd
@@ -15,6 +17,10 @@ Spring XD - Tackling Big Data Complexity  - Examples
 ## Create Logfile
 
 	touch /tmp/logfile.json
+
+or
+
+	generate-log.sh
 
 ## Open XD Shell
 
